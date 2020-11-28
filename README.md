@@ -22,9 +22,9 @@ FIXTURES_DIRS = (
 
 Thats it, your done!
 
-#usage
+# usage
 
-##save_staging
+## save_staging
 
     ./manage.py save_staging
     or
@@ -38,13 +38,13 @@ Without overriding the original content.
     TIP: to reduce the image size you can use morgrify:
     https://imagemagick.org/script/mogrify.php
 
-##reset_staging
+## reset_staging
 
 ./manage.py reset_staging
 
 This command wil reinstall all fixtures in you datbase.
 
-#workflow
+# workflow
 
 Build your pages and database. Populate your DB manualy with content.
 ./manage.py save_staging
