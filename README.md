@@ -23,6 +23,7 @@ FIXTURES_DIRS = (
 Thats it, your done!
 
 #usage
+
 ##save_staging
 
     ./manage.py save_staging
@@ -38,11 +39,13 @@ Without overriding the original content.
     https://imagemagick.org/script/mogrify.php
 
 ##reset_staging
+
 ./manage.py reset_staging
 
 This command wil reinstall all fixtures in you datbase.
 
 #workflow
+
 Build your pages and database. Populate your DB manualy with content.
 ./manage.py save_staging
 
