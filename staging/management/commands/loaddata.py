@@ -1,6 +1,6 @@
 from django.core.management import BaseCommand, call_command
 from django.core.management.commands.loaddata import Command as LoadDataCmd
-from utils.db_signals import disable_db_signals
+from staging.db_signals import disable_db_signals
 
 
 class Command(BaseCommand):
