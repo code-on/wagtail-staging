@@ -4,7 +4,7 @@ from django.core.management import BaseCommand, call_command
 from django.db import connection
 from django.contrib.contenttypes.models import ContentType
 from wagtail.core.models import Page
-from utils.db_signals import disable_db_signals
+from staging.db_signals import disable_db_signals
 
 
 class Command(BaseCommand):
